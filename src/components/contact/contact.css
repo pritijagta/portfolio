@@ -1,0 +1,115 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100vh;
+    background-color: #59b256;
+    position: absolute;
+}
+.c-wrapper{
+    display: flex;
+    padding: 40px;
+}
+.c-left{
+    flex:1
+}
+.c-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    flex:1
+    
+}
+.c-info{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+.c-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+   
+}
+.c-title{
+    width: 80%;
+    font-size: 40px;
+}
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom:1px solid black;
+    margin:10px 0px;
+    padding-left: 10px;
+
+}
+textarea{
+    width: 100%;
+    border-bottom:1px solid black;
+    margin:10px 0px;
+    padding-left: 10px;
+}
+button{
+    border: none;
+    padding: 15px;
+    background-color: #59b256;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.notification {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .notification.success {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .notification.error {
+    background-color: #f44336;
+    color: white;
+  }
+  @media  screen and (max-width:600px) {
+    .c-wrapper{
+        flex-direction: column;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .c-desc{
+        display: none;
+    }
+    form{
+
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 35%;
+        height:40px;
+        margin: 10px;
+    }
+    button{
+        margin-top: 10px;
+    }
+   
+}
+  

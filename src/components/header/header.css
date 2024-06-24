@@ -1,0 +1,43 @@
+/* components/header/header.css */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+   
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .header nav ul li:hover a {
+    color: #ffcc00; /* Change text color on hover */
+  }
+  .header nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .linkedin,.github{
+        display: none;
+
+    }
+  
+   
+
+ 
+   
+  }
